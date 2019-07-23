@@ -1,6 +1,6 @@
 # screenshotmachine-python
 
-This demo shows how to call online screenshot machine' API using python3.
+This demo shows how to call online screenshot machine API using python3.
 
 ## Installation
 First, you need to create a free/premium account at [www.screenshotmachine.com](https://www.screenshotmachine.com) website. After registration, you will see your customer key in your user profile. Also secret phrase is maintained here. Please, use secret phrase always, when your API calls are called from publicly available websites.  
