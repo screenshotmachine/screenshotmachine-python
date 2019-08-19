@@ -21,10 +21,11 @@ options = {
   'dimension': '1366x768', # or "1366xfull" for full length screenshot
   'device': 'desktop',
   'cacheLimit' : '0',
-  'delay' : '200'
+  'delay' : '200',
+  'zoom' : '100'
   }
 ```
-More info about options can be found in our [API guide](https://www.screenshotmachine.com/apiguide.php).  
+More info about options can be found in our [API doc](https://www.screenshotmachine.com/api.php).  
 
  Sample code
 -----
@@ -38,7 +39,8 @@ options = {
   'dimension': '1366x768', # or "1366xfull" for full length screenshot
   'device': 'desktop',
   'cacheLimit' : '0',
-  'delay' : '200'
+  'delay' : '200',
+  'zoom' : '100'
   }
 
 api_url = generate_api_url(customer_key, secret_phrase, options)

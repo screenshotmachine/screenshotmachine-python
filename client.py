@@ -18,7 +18,8 @@ options = {
   'dimension': '1366x768', # or "1366xfull" for full length screenshot
   'device': 'desktop',
   'cacheLimit' : '0',
-  'delay' : '200'
+  'delay' : '200',
+  'zoom' : '100'
   }
 
 api_url = generate_api_url(customer_key, secret_phrase, options)
